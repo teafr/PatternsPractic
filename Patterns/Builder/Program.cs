@@ -13,6 +13,7 @@ namespace Builder
                                                               .Subject("Information", Encoding.UTF8)
                                                               .Body("Hello world!", Encoding.UTF8)
                                                               .Build();
+            Console.WriteLine(mailMessage.GetInfo());
         }
     }
 }
